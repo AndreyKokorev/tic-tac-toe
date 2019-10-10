@@ -14,7 +14,8 @@ function render() {
         html += '<div class="row">';
 
         for (let j = 0; j < 3; j++) {
-            html += `<div class="column">${game.getFieldValue(i, j) || ''}</div>`;
+            html +=
+            `<div class="column">${game.getFieldValue(i, j) || ''}</div>`;
         }
 
         html += '</div>';
